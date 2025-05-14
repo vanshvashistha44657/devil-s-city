@@ -37,7 +37,7 @@ module.exports = {
       .addFields(
         {
           name: 'Developer',
-          value: '```elm\nNeppixel\n```',
+          value: '```elm\nGaurav & Neppixel\n```',
           inline: true,
         },
         {
@@ -97,7 +97,7 @@ module.exports = {
 
     const sourceCodeButton = new ButtonBuilder()
       .setLabel('Source Code')
-      .setURL('https://github.com/birajrai/lanya')
+      .setURL('https://github.com/gaurav87565/Lanya-2.0')
       .setStyle(ButtonStyle.Link);
 
     const row = new ActionRowBuilder().addComponents(sourceCodeButton);
